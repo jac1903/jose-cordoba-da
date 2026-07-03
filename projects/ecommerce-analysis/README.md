@@ -102,19 +102,19 @@ RFM is a marketing technique used to quantitatively rank customers based on:
 
 WITH rfm\_data AS (
 
-&#x20;   SELECT 
+   SELECT 
 
-&#x20;       customer\_id,
+       customer\_id,
 
-&#x20;       MAX(order\_date) AS last\_purchase\_date,
+       MAX(order\_date) AS last\_purchase\_date,
 
-&#x20;       COUNT(order\_id) AS frequency,
+       COUNT(order\_id) AS frequency,
 
-&#x20;       SUM(price) AS monetary
+       SUM(price) AS monetary
 
-&#x20;   FROM orders
+   FROM orders
 
-&#x20;   GROUP BY customer\_id
+   GROUP BY customer\_id
 
 )
 
