@@ -63,7 +63,7 @@ WITH rfm_data AS (
     GROUP BY customer_id
 )
 -- Customers are scored from 1-5 on each metric and segmented into:
--- Champions, Loyal, Potential, At-Risk, and Churned
+-- Champions, Loyal, Potential, At-Risk, and Churned```
 📊 Results & Dashboard
 RFM Segmentation Results
 After analyzing 100,000+ orders, we identified 5 distinct customer segments:
