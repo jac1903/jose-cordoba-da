@@ -24,19 +24,20 @@ Build a **customer segmentation model** (RFM Analysis) to classify customers int
 | **Excel** | Quick validation and ad-hoc analysis |
 
 ## 📂 Project Structure
-ecommerce-analysis/
-├── README.md # You are here
-├── data/ # Raw and processed CSV files
-├── sql/ # All SQL queries
-│ └── customer_segmentation.sql
-├── notebooks/ # Jupyter notebooks for EDA
-│ └── 01_eda_and_rfm_analysis.ipynb
-├── reports/ # Executive summary (PDF)
-└── dashboards/ # Tableau workbook and screenshots
-└── screenshots/
-└── rfm_chart.png
 
-text
+```
+ecommerce-analysis/
+├── README.md                    # You are here
+├── data/                        # Raw and processed CSV files
+├── sql/                         # All SQL queries
+│   └── customer_segmentation.sql
+├── notebooks/                   # Jupyter notebooks for EDA
+│   └── 01_eda_and_rfm_analysis.ipynb
+├── reports/                     # Executive summary (PDF)
+└── dashboards/                  # Tableau workbook and screenshots
+    └── screenshots/
+        └── rfm_chart.png
+```
 
 ## 🔍 Methodology
 
