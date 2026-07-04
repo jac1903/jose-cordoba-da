@@ -74,8 +74,8 @@ Loyal	20%	Frequent but mid-spend	Cross-sell and upsell
 Potential	25%	High spend but inactive recently	Re-engagement campaigns
 At-Risk	20%	Declining activity	Win-back discounts
 Churned	20%	No purchase in 6+ months	Reactivation emails
-Segmentation Chart
-https://dashboards/screenshots/rfm_chart.png
+### Segmentation Chart
+![RFM Segmentation Chart](dashboards/screenshots/rfm_chart.png)
 
 The chart above shows the distribution of customers across different segments, helping the marketing team target the right customers with the right message.
 
@@ -108,7 +108,6 @@ Run the SQL scripts in the sql/ folder to create and populate tables.
 
 Open notebooks/01_eda_and_rfm_analysis.ipynb to explore the data and generate insights.
 
-📚 References
-Olist Dataset on Kaggle
-
-RFM Analysis Guide
+## 📚 References
+- [Olist Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+- [RFM Analysis Guide](https://clevertap.com/blog/rfm-analysis/)
