@@ -119,4 +119,4 @@ sales-forecast-dashboard/
 
 ---
 
-*Last Updated: April 2026* | **Author**: Jose Cordoba
+*Last Updated: July 2026* | **Author**: Jose Cordoba
