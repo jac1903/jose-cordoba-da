@@ -65,49 +65,51 @@ WITH rfm_data AS (
 -- Customers are scored from 1-5 on each metric and segmented into:
 -- Champions, Loyal, Potential, At-Risk, and Churned
 ```
-📊 Results & Dashboard
-RFM Segmentation Results
+## 📊 Results & Dashboard
+
+### RFM Segmentation Results
+
 After analyzing 100,000+ orders, we identified 5 distinct customer segments:
 
-Segment	% of Customers	Characteristics	Recommended Action
-Champions	15%	High spenders, recent buyers	VIP treatment, exclusive offers
-Loyal	20%	Frequent but mid-spend	Cross-sell and upsell
-Potential	25%	High spend but inactive recently	Re-engagement campaigns
-At-Risk	20%	Declining activity	Win-back discounts
-Churned	20%	No purchase in 6+ months	Reactivation emails
-Segmentation Chart
-https://dashboards/screenshots/rfm_chart.png
+| Segment | % of Customers | Characteristics | Recommended Action |
+|---------|---------------|-----------------|-------------------|
+| **Champions** | 15% | High spenders, recent buyers | VIP treatment, exclusive offers |
+| **Loyal** | 20% | Frequent but mid-spend | Cross-sell and upsell |
+| **Potential** | 25% | High spend but inactive recently | Re-engagement campaigns |
+| **At-Risk** | 20% | Declining activity | Win-back discounts |
+| **Churned** | 20% | No purchase in 6+ months | Reactivation emails |
 
-The chart above shows the distribution of customers across different segments, helping the marketing team target the right customers with the right message.
-💡 Key Business Insights
-Top 5% of customers (Champions) generate 35% of total revenue.
+### Segmentation Chart
 
-The average repeat purchase rate is only 18%—a huge opportunity to increase retention.
+![RFM Segmentation Chart](dashboards/screenshots/rfm_chart.png)
 
-Customers who buy from the Health & Beauty category have a 40% higher retention rate than others.
+*The chart above shows the distribution of customers across different segments, helping the marketing team target the right customers with the right message.*
 
-The Northeast region shows 15% faster growth than the national average.
+## 💡 Key Business Insights
 
-🏆 Business Impact
-Reduce churn by 20% by targeting "At-Risk" segments with personalized offers.
+- **Top 5% of customers (Champions)** generate 35% of total revenue.
+- The average repeat purchase rate is only **18%** — a huge opportunity to increase retention.
+- Customers who buy from the **Health & Beauty** category have a 40% higher retention rate than others.
+- The **Northeast region** shows 15% faster growth than the national average.
 
-Increase Customer Lifetime Value (CLV) by 15% through cross-selling to "Loyal" customers.
+## 🏆 Business Impact
 
-Save $200K annually in marketing spend by cutting ads to already-loyal "Champions".
+- **Reduce churn by 20%** by targeting "At-Risk" segments with personalized offers.
+- **Increase Customer Lifetime Value (CLV) by 15%** through cross-selling to "Loyal" customers.
+- **Save $200K annually** in marketing spend by cutting ads to already-loyal "Champions".
 
-🚀 How to Run This Project
-Prerequisites
-MySQL installed
+## 🚀 How to Run This Project
 
-Python 3.8+ with Jupyter Notebook
+### Prerequisites
+- MySQL installed
+- Python 3.8+ with Jupyter Notebook
 
-Steps
-Download the dataset from Kaggle.
-
-Run the SQL scripts in the sql/ folder to create and populate tables.
-
-Open notebooks/01_eda_and_rfm_analysis.ipynb to explore the data and generate insights.
+### Steps
+1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
+2. Run the SQL scripts in the `sql/` folder to create and populate tables.
+3. Open `notebooks/01_eda_and_rfm_analysis.ipynb` to explore the data and generate insights.
 
 ## 📚 References
+
 - [Olist Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 - [RFM Analysis Guide](https://clevertap.com/blog/rfm-analysis/)
