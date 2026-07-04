@@ -63,7 +63,8 @@ WITH rfm_data AS (
     GROUP BY customer_id
 )
 -- Customers are scored from 1-5 on each metric and segmented into:
--- Champions, Loyal, Potential, At-Risk, and Churned```
+-- Champions, Loyal, Potential, At-Risk, and Churned
+```
 📊 Results & Dashboard
 RFM Segmentation Results
 After analyzing 100,000+ orders, we identified 5 distinct customer segments:
@@ -74,11 +75,10 @@ Loyal	20%	Frequent but mid-spend	Cross-sell and upsell
 Potential	25%	High spend but inactive recently	Re-engagement campaigns
 At-Risk	20%	Declining activity	Win-back discounts
 Churned	20%	No purchase in 6+ months	Reactivation emails
-### Segmentation Chart
-![RFM Segmentation Chart](dashboards/screenshots/rfm_chart.png)
+Segmentation Chart
+https://dashboards/screenshots/rfm_chart.png
 
 The chart above shows the distribution of customers across different segments, helping the marketing team target the right customers with the right message.
-
 💡 Key Business Insights
 Top 5% of customers (Champions) generate 35% of total revenue.
 
