@@ -63,39 +63,83 @@ sales-forecast-dashboard/
 - Monthly sales trends by region.
 - Top 10 products by revenue.
 - Seasonality and year-over-year growth.
+- **Key finding**: Sales declined significantly from 2017 onward.
 
 ### 3. Sales Forecasting
 - Used Facebook Prophet for time series forecasting.
-- Forecasted 6 months ahead.
-- Validated with historical data.
+- Aggregated data to monthly sales for cleaner trends.
+- Forecasted 3 months ahead (shorter horizon = more reliable).
+- **Important**: Due to limited historical data (2015-2018), longer forecasts would be unreliable.
 
 ### 4. Dashboard Creation
 - Built interactive dashboard in Tableau/Power BI.
 - Added filters for region, category, and time period.
 
-## 📊 Dashboard Features
+## 📊 Dashboard Preview
 
-| Feature | Description |
-|---------|-------------|
-| **Monthly Sales Trend** | Line chart with forecast overlay |
-| **Regional Performance** | Map with color-coded sales |
-| **Product Performance** | Bar chart of top products |
-| **KPI Cards** | Key metrics at a glance |
-| **Filters** | Region, Category, Date range |
+| Sales by Region | Sales by Category |
+|----------------|-------------------|
+| ![Sales by Region](visualizations/screenshots/sales_by_region.png) | ![Sales by Category](visualizations/screenshots/sales_by_category.png) |
 
-## 💡 Key Insights (Expected)
+| Monthly Sales Trend | Top Products |
+|--------------------|--------------|
+| ![Monthly Sales Trend](visualizations/screenshots/monthly_sales_trend.png) | ![Top Products](visualizations/screenshots/top_products.png) |
 
-1. **West region** outperforms others by 25% in Q4.
-2. **Technology** category has highest profit margin (22%).
-3. Sales peak in **November** (holiday season).
-4. **Office Supplies** is the most consistent category.
+## 📈 Sales Forecasting Results
+
+### Forecast Summary
+Using Facebook Prophet, I forecasted monthly sales for 3 months (November 2018 – January 2019) based on historical data from 2015-2018.
+
+| Metric | Value |
+|--------|-------|
+| **Total Forecasted Sales (3 months)** | $305.48 |
+| **Average Monthly Sales** | $101.83 |
+| **Peak Month** | November 2018 ($127.70) |
+| **Lowest Month** | January 2019 ($75.67) |
+
+![Monthly Sales Forecast](visualizations/screenshots/forecast_plot.png)
+
+### Key Insights
+1. **Declining Trend**: Sales show a slight downward trend into 2019.
+2. **Seasonal Pattern**: November shows slightly higher sales (potentially holiday effect).
+3. **Realistic Projections**: Monthly sales are in the $75-$130 range, which aligns with historical data.
+
+### ⚠️ Important Limitations & Data Caveats
+
+**This forecast should be interpreted with caution due to the following limitations:**
+
+1. **Limited Data**: The dataset only covers 2015-2018 (~3 years), which is not enough to capture robust yearly seasonality patterns.
+
+2. **Declining Historical Trend**: Sales data shows a significant decline from 2017 onward, which heavily influences the forecast.
+
+3. **Short Forecast Horizon**: Due to data limitations, I limited the forecast to 3 months. Longer forecasts would be less reliable.
+
+4. **External Factors**: The forecast does not account for external factors like:
+   - Marketing campaigns
+   - Economic conditions
+   - Competitor actions
+   - New product launches
+
+### Recommendations for Better Forecasting
+
+For more accurate future projections, I recommend:
+1. **Collect more data**: At least 5+ years of historical sales data.
+2. **Update monthly**: Re-forecast as new data becomes available.
+3. **Include external factors**: Add marketing spend, seasonality, and economic indicators.
+4. **Validate regularly**: Compare forecasted vs actual sales to refine the model.
+
+## 💡 Key Business Insights
+
+1. **Sales Decline**: Sales dropped significantly from 2017 onward (from ~$600/month to ~$100/month).
+2. **Top Region**: West region generates the highest sales.
+3. **Top Category**: Technology has the highest sales.
+4. **Best Month**: Seasonal peak during November (holiday season).
 
 ## 🏆 Business Impact (Target)
 
-- **10% increase** in forecast accuracy.
-- **15% reduction** in overstocked inventory.
-- **Regional managers** now have data-driven targets.
-- **Improved marketing ROI** through targeted campaigns.
+- **Short-term planning**: 3-month forecast helps with inventory and staffing decisions.
+- **Trend awareness**: Understanding the decline allows for proactive corrective actions.
+- **Data-driven decisions**: Dashboard provides real-time visibility into sales performance.
 
 ## 🚀 How to Run This Project
 
