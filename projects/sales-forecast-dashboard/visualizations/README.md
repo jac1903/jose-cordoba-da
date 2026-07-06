@@ -110,5 +110,5 @@ This folder contains all chart images, screenshots, and visual assets used in th
 
 ### In README
 
-![Sales by Region](visualizations/screenshots/sales_by_region.png)
+[Sales by Region](visualizations/screenshots/sales_by_region.png)
 
