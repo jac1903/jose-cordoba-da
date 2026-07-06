@@ -109,6 +109,6 @@ This folder contains all chart images, screenshots, and visual assets used in th
 ## 🖼️ How to Use These Images
 
 ### In README
-```markdown
+
 ![Sales by Region](visualizations/screenshots/sales_by_region.png)
 
