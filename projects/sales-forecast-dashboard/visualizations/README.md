@@ -108,7 +108,26 @@ This folder contains all chart images, screenshots, and visual assets used in th
 
 ## 🖼️ How to Use These Images
 
+
 ### In README
+To display an image in your README, use this syntax:
+https://visualizations/screenshots/sales_by_region.png
 
-[Sales by Region](visualizations/screenshots/sales_by_region.png)
 
+### Direct Links (Click to View)
+- [View Sales by Region Chart](./screenshots/sales_by_region.png)
+- [View Sales by Category Chart](./screenshots/sales_by_category.png)
+- [View Monthly Sales Trend](./screenshots/monthly_sales_trend.png)
+- [View Sales by Segment Chart](./screenshots/segment_pie_chart.png)
+- [View Sales Boxplot](./screenshots/sales_boxplot.png)
+- [View Top Products Chart](./screenshots/top_products.png)
+- [View Forecast Plot](./screenshots/forecast_plot.png)
+- [View Forecast Components](./screenshots/forecast_components.png)
+
+### In Reports
+- Insert images into executive summaries.
+- Use for presentations to stakeholders.
+
+### In Dashboard
+- Use as thumbnails or mockups.
+- Some images may be used as dashboard components.
