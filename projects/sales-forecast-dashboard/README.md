@@ -1,5 +1,20 @@
 # 📊 Sales Performance & Forecasting Dashboard
 
+## 🌐 Live Dashboard
+
+**[View the Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/alejandro.c.rdoba/viz/SalesPerformanceDashboard_17834109621430/SalesPerformanceDashboard?publish=yes)**
+
+![Dashboard Preview](visualizations/screenshots/dashboard.png)
+
+**Dashboard Features**:
+- 📍 Filter by Region, Category, and Date Range
+- 📈 Trend analysis with monthly sales
+- 🗺️ Geographic breakdown by state
+- 🏆 Top 10 products and categories
+- 👥 Customer segment distribution
+
+---
+
 ## 🎯 Business Problem
 A retail company operates across 4 regions and needs to optimize inventory and marketing spend. Currently, they have no visibility into:
 - Which products are driving sales?
@@ -14,16 +29,18 @@ Build a **sales performance dashboard** with forecasting capabilities to help ma
 - **Size**: 9,994 rows (2015-2018)
 - **Regions**: North, South, East, West
 - **Categories**: Furniture, Office Supplies, Technology
-- **Key Metrics**: Sales, Profit, Quantity, Customer Segment
+- **Key Metrics**: Sales, Quantity, Customer Segment
+
+> **Note**: This dataset does not include a Profit column. Analysis focuses on sales metrics.
 
 ## 📈 Key Metrics & KPIs
 
 | KPI | Definition | Why It Matters |
 |-----|-----------|---------------|
-| **Total Sales** | Monthly revenue | Tracks overall growth |
+| **Total Sales** | Total revenue | Tracks overall growth |
 | **Sales by Region** | Revenue per region | Identifies high/low performers |
-| **Profit Margin** | (Sales - Cost)/Sales | Measures efficiency |
-| **Forecast Accuracy** | Predicted vs actual | Validates forecasting model |
+| **Average Order Value** | Sales per order | Measures customer spending |
+| **Sales Growth Rate** | Month-over-month change | Shows business momentum |
 
 ## 🛠️ Tools Used
 
@@ -31,25 +48,24 @@ Build a **sales performance dashboard** with forecasting capabilities to help ma
 |------|---------|
 | **MySQL** | Data storage and aggregation |
 | **Python (Pandas, Matplotlib, Seaborn)** | EDA and visualization |
-| **Tableau Public / Power BI** | Interactive dashboard |
+| **Tableau Public** | Interactive dashboard |
 | **Prophet (Python)** | Sales forecasting |
 
 ## 📂 Project Structure
-
 ```
 sales-forecast-dashboard/
-├── README.md                    # You are here
-├── data/                        # Raw and processed CSV files
-│   └── superstore_sales.csv
-├── sql/                         # SQL queries
-│   └── sales_metrics.sql
-├── notebooks/                   # Jupyter notebooks
-│   ├── 01_eda_sales_data.ipynb
-│   └── 02_sales_forecast.ipynb
-├── reports/                     # Executive summary
-│   └── executive_summary.md
-└── visualizations/              # Charts and dashboards
-    └── screenshots/
+├── README.md # You are here
+├── data/ # Raw and processed CSV files
+│ └── superstore_sales.csv
+├── sql/ # SQL queries
+│ └── sales_metrics.sql
+├── notebooks/ # Jupyter notebooks
+│ ├── 01_eda_sales_data.ipynb
+│ └── 02_sales_forecast.ipynb
+├── reports/ # Executive summary
+│ └── executive_summary.md
+└── visualizations/ # Charts and dashboards
+└── screenshots/
 ```
 
 ## 🔍 Methodology
@@ -72,8 +88,9 @@ sales-forecast-dashboard/
 - **Important**: Due to limited historical data (2015-2018), longer forecasts would be unreliable.
 
 ### 4. Dashboard Creation
-- Built interactive dashboard in Tableau/Power BI.
+- Built interactive dashboard in Tableau Public.
 - Added filters for region, category, and time period.
+- Published live for stakeholder access.
 
 ## 📊 Dashboard Preview
 
@@ -135,7 +152,7 @@ For more accurate future projections, I recommend:
 3. **Top Category**: Technology has the highest sales.
 4. **Best Month**: Seasonal peak during November (holiday season).
 
-## 🏆 Business Impact (Target)
+## 🏆 Business Impact
 
 - **Short-term planning**: 3-month forecast helps with inventory and staffing decisions.
 - **Trend awareness**: Understanding the decline allows for proactive corrective actions.
@@ -146,7 +163,7 @@ For more accurate future projections, I recommend:
 ### Prerequisites
 - MySQL installed
 - Python 3.8+ with Jupyter Notebook
-- Tableau Public or Power BI (optional)
+- Tableau Public (optional)
 
 ### Steps
 1. Open MySQL Workbench.
@@ -154,12 +171,13 @@ For more accurate future projections, I recommend:
 3. Run SQL scripts in the `sql/` folder.
 4. Open `notebooks/01_eda_sales_data.ipynb` for EDA.
 5. Open `notebooks/02_sales_forecast.ipynb` for forecasting.
-6. Open Tableau/Power BI and connect to the database.
-7. Build the dashboard.
+6. Open Tableau and connect to the database.
+7. Build the dashboard (or view the live version above).
 
 ## 📚 References
 - [Superstore Dataset on Kaggle](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting)
 - [Facebook Prophet Documentation](https://facebook.github.io/prophet/)
+- [Tableau Public Gallery](https://public.tableau.com/app/discover)
 
 ---
 
