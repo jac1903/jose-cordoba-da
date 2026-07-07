@@ -154,7 +154,6 @@ For more accurate future projections, I recommend:
 - 📍 Filter by Region, Category, and Date Range
 - 📈 Trend analysis with monthly sales
 - 🗺️ Geographic breakdown by state
-- 🏆 Top 10 products and categories
 - 👥 Customer segment distribution
 
 ## 🚀 How to Run This Project
