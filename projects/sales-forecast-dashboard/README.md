@@ -1,18 +1,4 @@
 # 📊 Sales Performance & Forecasting Dashboard
-
-## 🌐 Live Dashboard
-
-**[View the Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/alejandro.c.rdoba/viz/SalesPerformanceDashboard_17834109621430/SalesPerformanceDashboard?publish=yes)**
-
-![Dashboard Preview](visualizations/screenshots/dashboard.png)
-
-**Dashboard Features**:
-- 📍 Filter by Region, Category, and Date Range
-- 📈 Trend analysis with monthly sales
-- 🗺️ Geographic breakdown by state
-- 🏆 Top 10 products and categories
-- 👥 Customer segment distribution
-
 ---
 
 ## 🎯 Business Problem
@@ -157,6 +143,19 @@ For more accurate future projections, I recommend:
 - **Short-term planning**: 3-month forecast helps with inventory and staffing decisions.
 - **Trend awareness**: Understanding the decline allows for proactive corrective actions.
 - **Data-driven decisions**: Dashboard provides real-time visibility into sales performance.
+
+## 🌐 Live Dashboard
+
+**[View the Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/alejandro.c.rdoba/viz/SalesPerformanceDashboard_17834109621430/SalesPerformanceDashboard?publish=yes)**
+
+![Dashboard Preview](visualizations/screenshots/dashboard.png)
+
+**Dashboard Features**:
+- 📍 Filter by Region, Category, and Date Range
+- 📈 Trend analysis with monthly sales
+- 🗺️ Geographic breakdown by state
+- 🏆 Top 10 products and categories
+- 👥 Customer segment distribution
 
 ## 🚀 How to Run This Project
 
