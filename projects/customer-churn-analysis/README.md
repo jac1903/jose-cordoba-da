@@ -38,6 +38,7 @@ churn_analysis/
 
 ## 📂 Project Structure
 
+```
 customer-churn-analysis/
 ├── README.md # You are here
 ├── data/ # Raw and processed CSV files
@@ -57,7 +58,7 @@ customer-churn-analysis/
 │ └── churn_dashboard.xlsx
 └── visualizations/ # Chart images
 └── screenshots/
-
+```
 
 ## 🔍 Methodology
 
