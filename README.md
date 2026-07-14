@@ -53,9 +53,9 @@ Here are three comprehensive data analysis projects I've built to demonstrate my
 
 ---
 
-## 📈 GitHub Stats
+## 📈 Profile Activity
 
-![Jose's GitHub Stats](https://github-readme-stats.vercel.app/api?username=jac1903&show_icons=true&theme=default)
+![Profile Views](https://komarev.com/ghpvc/?username=jac1903&color=blue&style=flat-square)
 
 ---
 
